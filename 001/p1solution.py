@@ -3,6 +3,8 @@ This program solves Problem 1 of Project Euler.  Later on, it will be expanded
 to support more than 2 multiples.  Instead of using (slow) iteration, we use
 properties of sums and Gauss's discovery
 
+Refer to http://blog.jeffshaul.com/euler-1-multiples-of-3-and-5/
+
 Usage: python p1solution.py bound a b [...]
        python p1solution.py 1000 3 5
 """
