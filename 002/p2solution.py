@@ -10,7 +10,7 @@ Usage: python p2solution.py upper_bound
 """
 import math
 import sys
-PHI = (1 + math.sqrt(5))/2
+PHI = (1 + math.sqrt(5))/2 # Golden Ratio
 
 
 def even_fib_sum(upper_bound):
