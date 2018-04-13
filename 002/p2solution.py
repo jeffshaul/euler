@@ -31,7 +31,7 @@ def find_index_even_fib(upper_bound):
 	if index % 3 == 0:
 		return index
 	else:
-		return index - 1
+		return index - (index % 3) # Drop index down to the next 3-multiple
 
 
 def geo_series_sum(upper_bound, base, constant):
