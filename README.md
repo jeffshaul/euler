@@ -4,4 +4,4 @@ Each challenge has its own folder.  Within a challenge's folder, there will alwa
   1. problem.txt (not necessarily a verbatim copy of the original problem statement)
   2. solution.xxx (whatever filetype is most appropriate as a solution)
   
-There could be more files in these folders such as data files, research summaries, and other helpful files.
+There could be more files in these folders such as data files, research summaries, and other helpful files.  As of late, I have shifted towards the Euler+ challenges on HackerRank.
