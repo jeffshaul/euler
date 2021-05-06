@@ -24,7 +24,7 @@ def find_quadrant1_lattice_points_of_hyperbola(n, a, b):
     lattice_points = []
     stopping_y = math.sqrt(n/(a+b))
     for y in range(1, math.floor(stopping_y) + 1):
-        x = round(math.sqrt((n - b*y**2)/2))
+        x = round(math.sqrt((n - b*y**2)/a))
         if x > y and n == a*x**2 + b*y**2:
             lattice_points.append((x, y))
             
