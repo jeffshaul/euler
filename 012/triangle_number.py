@@ -39,11 +39,11 @@ def number_of_divisors(n):
 def find_triangle_number_with_over_n_divisors(n):
 	"""Generates triangle numbers until a number is found
 	such that it has over n divisors.  Return that number."""
-	
+
 	i = 2
 	triangle_number = 1
 	while number_of_divisors(triangle_number) <= n:
-		triangle_number += 1
+		triangle_number += i
 		i += 1
 	return triangle_number
 
